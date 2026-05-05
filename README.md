@@ -64,7 +64,42 @@
       //tagname[@attribute1='value' or @attribute2='value']
       //tagname[contains(@attribute1,'value') and @aatribute2='value']
       ```
-     
+### WebElements Method
+**Action Methods**
+
+- **click()**  
+  Used to perform click operation on buttons, links, etc.
+
+- **sendKeys()**  
+  Used to enter data into input fields.
+
+- **getText()**  
+  Returns the visible text of an element.
+
+- **getAttribute()**  
+  Returns the value of a specific attribute of an element.  
+  Example:
+  getAttribute("value")
+
+---
+
+**State Checking Methods**
+
+- **isDisplayed()**  
+  Checks whether the element is visible on the page.
+
+- **isEnabled()**  
+  Checks whether the element is enabled (can be interacted with).
+
+- **isSelected()**  
+  Checks whether the element is selected.  
+  Used for:
+  - Radio buttons  
+  - Checkboxes  
+
+---
+
+  
 
   
   
